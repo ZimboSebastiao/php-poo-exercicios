@@ -15,6 +15,11 @@ $livroA = new Livro;
 $livroA->setTitulo("Niketche: Uma História de Poligamia");
 $livroA->setAutor("Paulina Chiziane");
 $livroA->setPaginas(296);
+
+$livroB = new Livro;
+
+// Métodos com return $this/self permitem ENCADEAMENTO nas chamadas
+$livroB->setTitulo("HTML")->setAutor("Maujor");
 ?>
 
 <p>Título: <?=$livroA->getTitulo()?></p>
