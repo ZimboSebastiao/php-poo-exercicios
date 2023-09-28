@@ -1,6 +1,7 @@
 <?php 
+require_once "Livro.php";
 
-class Programacao {
+class Programacao extends Livro {
     private string $area;
 
     public function getArea(): string

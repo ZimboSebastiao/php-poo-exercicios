@@ -1,7 +1,7 @@
 <?php
-// require_once "Livro.php";
+require_once "Livro.php";
 
-class Tecnico {
+class Tecnico extends Livro {
     private array $formato = ["digital", "fisico"];
 
 

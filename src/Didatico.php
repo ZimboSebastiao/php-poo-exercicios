@@ -1,7 +1,7 @@
 <?php 
+require_once "Livro.php";
 
-
-class Didatico {
+class Didatico extends Livro{
     private string $disciplina;
     private array $nivel = ["básico", "médio", "superior"];
 
