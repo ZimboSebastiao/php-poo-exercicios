@@ -1,7 +1,7 @@
 <?php 
-require_once "Livro.php";
+require_once "Tecnico.php";
 
-class Didatico extends Livro{
+class Didatico extends Tecnico{
     private string $disciplina;
     private array $nivel = ["básico", "médio", "superior"];
 
@@ -20,9 +20,9 @@ class Didatico extends Livro{
     }
 
 
-    public function getNivel(): string
+    public function getNivel(): array
     {
-        return implode(", ", $this->nivel) ;
+        return $this->nivel ;
     }
 
 
