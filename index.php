@@ -49,7 +49,7 @@ $programacao->setArea("Desenvolvimento de Software");
 ?>
 <ul class="format">
     <h2>Técnico</h2>
-    <li>Autora: <?=$tecnico->getAutor()?></li>
+    <li>Autor: <?=$tecnico->getAutor()?></li>
     <li>Páginas: <?=$tecnico->getPaginas()?></li>
     <li>Título: <?=$tecnico->getTitulo()?></li>
     <li>Formato: <?=$tecnico->getFormato()?></li>
@@ -57,7 +57,7 @@ $programacao->setArea("Desenvolvimento de Software");
 <hr>
 <ul class="format">
     <h2>Didático</h2>
-    <li>Autora: <?=$didatico->getAutor()?></li>
+    <li>Autor: <?=$didatico->getAutor()?></li>
     <li>Páginas: <?=$didatico->getpaginas()?></li>
     <li>Título: <?=$didatico->getTitulo()?></li>
     <li>Disciplina: <?=$didatico->getDisciplina()?></li>
@@ -76,7 +76,7 @@ $programacao->setArea("Desenvolvimento de Software");
 <ul class="format">
     <h2>Programação</h2>
 
-    <li>Autora: <?=$programacao->getAutor()?></li>
+    <li>Autor: <?=$programacao->getAutor()?></li>
     <li>Páginas: <?=$programacao->getPaginas()?></li>
     <li>Título: <?=$programacao->getTitulo()?></li>
     <li>Disciplina: <?=$programacao->getArea()?></li>
