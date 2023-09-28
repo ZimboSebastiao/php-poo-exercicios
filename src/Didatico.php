@@ -20,9 +20,9 @@ class Didatico extends Livro{
     }
 
 
-    public function getNivel(): array
+    public function getNivel(): string
     {
-        return $this->nivel;
+        return implode(", ", $this->nivel) ;
     }
 
 
